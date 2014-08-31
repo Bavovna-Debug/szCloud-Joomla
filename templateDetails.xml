@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" method="upgrade" client="site">
+	<name>cloud</name>
+	<creationDate>August 2012</creationDate>
+	<author>Elena Kukuruz</author>
+	<authorEmail>lena@meine-werke.com</authorEmail>
+	<authorUrl>http://www.meine-werke.com</authorUrl>
+	<copyright>Copyright 2012 Meine Werke.</copyright>
+	<license>Special</license>
+	<version>1.0</version>
+	<description>Meine Werke</description>
+
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>javascript</folder>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+
+	<positions>
+		<position>manager</position>
+
+		<position>cart</position>
+		<position>currencies</position>
+		<position>languages</position>
+		<position>login</position>
+		<position>search</position>
+
+		<position>main_menu</position>
+		<position>tabs</position>
+		<position>left</position>
+		<position>right</position>
+
+		<position>bottom-long</position>
+		<position>bottom-1</position>
+		<position>bottom-2</position>
+		<position>bottom-3</position>
+		<position>bottom-4</position>
+
+		<position>footer</position>
+		<position>footer-left</position>
+		<position>footer-right</position>
+	</positions>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_cloud.ini</language>
+		<language tag="de-DE">de-DE/de-DE.tpl_cloud.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.tpl_cloud.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="logo" type="media"
+					hide_default="1"
+					label="TPL_theme_FIELD_LOGO_LABEL" description="TPL_theme_FIELD_LOGO_DESC" />
+					
+				<field name="sitetitle"  type="text" default=""
+					label="TPL_theme_FIELD_SITETITLE_LABEL"
+					description="TPL_theme_FIELD_SITETITLE_DESC"
+					filter="string" />
+
+				<field name="sitedescription"  type="text" default=""
+					label="TPL_theme_FIELD_DESCRIPTION_LABEL"
+					description="TPL_theme_FIELD_DESCRIPTION_DESC"
+					filter="string" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,213 @@
+.poping_links {
+	color: #6A6A6A;
+	display: block;
+	font-family: 'Oswald', sans-serif;
+	font-size: 12px;
+	height: auto !important;
+	line-height: 20px;
+	overflow: hidden;
+	position: relative;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.moduletable_LoginForm {
+	background: none;
+	border-left: none;
+	height: 40px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	right: 24px;
+	text-align: right;
+	top: 62px;
+	width: 300px;
+	z-index: 1000;
+}
+
+#form-login {
+	color: black;
+	font-weight: bold;
+	overflow: hidden;
+	padding-top: 6px;
+	text-align: left;
+	text-transform: none;
+}
+
+#form-login span {
+	display: block;
+	padding-bottom: 5px;
+}
+
+#login_pop .button {
+	background: #7DA319;
+	border: none !important;
+	color: white !important;
+	display: block;
+	font-weight: bold;
+	letter-spacing: 0;
+	line-height: 25px !important;
+	margin: 10px 0;
+	padding: 0 10px;
+	position: relative;
+	text-align: center;
+	text-transform: none;
+	width: auto;
+}
+
+#login_pop .button:hover {
+	background: #56362A;
+	text-decoration: none;
+}
+	
+@-moz-document url-prefix() {
+	#login_pop .button { padding-bottom: 3px;}
+}
+
+#openLogin,
+#openReg,
+#login-form2 .button {
+	background: none;
+	border: none;
+	box-shadow: none;
+	color: #904A00 !important;
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	height: auto;
+	letter-spacing: 0;
+	line-height: 20px !important;
+	margin: 0;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	vertical-align: middle;
+	width: auto;
+}
+
+#openLogin:hover,
+#openReg:hover,
+#login-form2 .button:hover {
+	color: #729516 !important;
+	text-decoration: none;
+}
+
+#login_pop,
+#reg_pop {
+	background: white;
+	border: 10px solid #333333;
+	border-radius: 3px;
+	color: #CCCCCC;
+	position: fixed;
+	text-align: left;
+	top: 270px;
+	z-index: 1000000;
+}
+
+#login_pop {
+	height: 225px;
+	padding: 10px;
+	width: 250px;
+}
+
+#reg_pop {
+	height: 280px;
+	padding: 20px 10px;
+	width: 455px;
+}
+
+#reg_pop .popyjreg{
+	overflow: hidden;
+	display: block;
+}
+
+#reg_pop .popyjreg_ins{
+	clear: both;
+	overflow: hidden;
+	display: block;
+	padding-top: 3px;
+}
+
+#reg_pop .inputbox {
+	width: 220px;
+	float: right;
+	margin-bottom: 5px;
+	margin-right: 40px;
+	margin-top: 5px;
+
+}
+
+.popyjreg_ins #name.inputbox { margin-top: 0!important;}
+
+#reg_pop label{
+	float: left;
+	display: block;
+	color: black;
+	font: bold 12px/18px Arial, Helvetica, sans-serif;
+	padding-top: 6px;
+}
+
+p.information_td{
+	clear: both;
+	display: block;
+	color: #04225c;
+}
+
+#closeReg,
+#closeLogin {
+	background: url("../images/fancy_close.png") no-repeat scroll left top transparent;
+	color: black;
+	display: inline-block;
+	height: 30px;
+	line-height: 25px;
+	position: absolute;
+	right: 5px;
+	text-align: center;
+	text-decoration: none;
+	top: 5px;
+	width: 30px;
+}
+
+#yjpop_username {
+	color: #7c7c7c;
+	margin: 0 0 5px 0;
+}
+
+#yjpop_passwd {
+	color: #7c7c7c;
+	margin: 0 0 10px 0;
+}
+
+#yjpop_remember {
+	border: none;
+	float: left;
+	font: normal 0/0 Arial, Helvetica, sans-serif;
+	height: 12px;
+	margin: 3px 5px 0 0;
+	padding: 0;
+	vertical-align: middle;
+	width: 12px;
+}
+
+.Forgot { list-style-type: none; margin: 0; padding: 0; overflow: hidden;}
+.Forgot li a { font: bold 12px/18px Arial, Helvetica, sans-serif; color: #7c7c7c;}
+
+#login-form2 {
+	float: right;
+	text-align: right;
+}
+
+#logins span {
+	clear: both;
+	color: #6A6A6A;
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	font-size: 12px;
+	height: auto !important;
+	line-height: 20px;
+	overflow: hidden;
+	padding: 0 10px 0 0;
+	text-align: right !important;
+}

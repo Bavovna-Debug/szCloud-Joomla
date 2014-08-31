@@ -1,0 +1,33 @@
+#main_menu {
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+#main_menu ul {
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+}
+
+#main_menu li {
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-family: "Oswald", sans-serif;
+	font-size: 1em;
+	margin: 5px 20px 5px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#main_menu li a {
+	color: #F4EDE5;
+	text-decoration: none;
+}
+
+#main_menu li:hover a,
+#main_menu li.active a {
+	color: #ECA456;
+}

@@ -1,0 +1,80 @@
+table.vokoun {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+table.vokoun tr {
+	white-space: nowrap;
+}
+
+table.vokoun tr.even {
+	background-color: #D8DEF0;
+}
+
+table.vokoun tr.odd {
+	background-color: #E5EBFF;
+}
+
+table.vokoun tr.even:hover,
+table.vokoun tr.odd:hover {
+	background-color: #C6D9F5;
+}
+
+table.vokoun th {
+	vertical-align: middle;
+	color: #F0F0F0;
+	text-shadow: 2px 2px 1px #222280;
+	text-align: center;
+	background-color: #505050;
+}
+
+table.vokoun th.left {
+	text-align: left;
+}
+
+table.vokoun th.center {
+	text-align: center;
+}
+
+table.vokoun th.right {
+	text-align: right;
+}
+
+table.vokoun td {
+	padding: 4px;
+	border-top: 1px solid #F7F8EE;
+	border-bottom: 1px solid #E6E7D5;
+	vertical-align: middle;
+}
+
+table.vokoun td.fixed {
+	text-align: center;
+	font-family: Courier;
+}
+
+table.vokoun td.multiline {
+	text-align: left;
+	white-space: normal;
+}
+
+table.vokoun td.left {
+	text-align: left;
+}
+
+table.vokoun td.center {
+	text-align: center;
+}
+
+table.vokoun td.right {
+	text-align: right;
+}
+
+table.vokoun td.master {
+	text-align: center;
+	margin: 0 5px;
+}
+
+table.vokoun td.reorder {
+	padding-left: 8px;
+	padding-right: 0;
+}

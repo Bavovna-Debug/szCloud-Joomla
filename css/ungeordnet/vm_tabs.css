@@ -1,0 +1,61 @@
+.Fly-tabs {
+	visibility: visible;
+}
+
+dl.tabs {
+	float: left;
+	margin: 0;
+	position: relative;
+}
+
+dl.tabs dt {
+	background: #FAFAFA;
+	border: 1px solid #DBC1B6;
+	border-radius: 0;
+	color: black;
+	cursor: pointer;
+	float: left;
+	font: bold 12px/30px Arial, Helvetica, sans-serif;
+	margin-bottom: -1px;
+	margin-right: 3px;
+	padding: 0 10px;
+	position: relative;
+}
+
+dl.tabs dt.open {
+	background: white;
+	border-bottom: none;
+	color: #904A00;
+	padding-bottom: 1px;
+}
+
+div.current { 
+	background: white;
+	border: 1px solid #DBC1B6;
+	border-radius: 0;
+	clear: both;
+	padding: 20px;
+	position: relative;
+}
+
+div.current dd {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+div.current dd .category-view { margin-bottom:0;}
+
+.current .desc {
+	color: #191919;
+	font: 12px/20px Arial, Helvetica, sans-serif;
+}
+
+.current .desc .video { display:none;}
+
+.current .desc2 .text { display:none;}
+
+.current .video { display:block; width:705px; padding:20px 0 20px 0; text-align:center; }
+.current .video .avPlayerWrapper { margin:0 auto; }
+div.current dd blockquote { width:500px; display:block; overflow:hidden;padding-right:20px;}
+div.current dd .border { border-bottom:1px dotted #e5e5e5; padding-top:15px; margin-bottom:-10px;}

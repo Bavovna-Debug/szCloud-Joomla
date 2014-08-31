@@ -1,0 +1,105 @@
+hr {
+    border-color: #CCCCCC;
+    border-style: solid;
+    border-width: 1px 0 0;
+    clear: both;
+    height: 0;
+}
+
+h1 {
+    font-size: 27px;
+}
+
+h2 {
+    font-size: 23px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 19px;
+}
+
+h5 {
+    font-size: 17px;
+}
+
+h6 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cuprum', arial, serif;
+    font-weight: normal;
+}
+
+ol {
+    list-style: decimal outside none;
+}
+
+ul {
+    list-style: square outside none;
+}
+
+p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
+    margin-bottom: 20px;
+}
+
+small {
+    font-size: 90%;
+}
+
+.button, button, .addtocart_button_module, .browseAddToCartContainer .addtocart_button, div.product-page div.product-content div.p-content span.p-ask .button, .addtocart_button_module, div.product-page div.product-content div.p-content span.p-addtocart form.addtocart_form input.addtocart_button, input.addtocart-button, a.ask-a-question, a.product-details, #com-form-login-remember input.default, .submit .highlight-button {
+    border: 0 solid #DCDCDC;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.298);
+    color: #505050;
+    cursor: pointer;
+    font: bold 13px Arial,Helvetica,sans-serif;
+    height: 34px;
+    margin: 3px 0;
+    padding: 0 15px;
+    text-shadow: none;
+    vertical-align: middle;
+}
+
+a.ask-a-question, a.product-details {
+    float: left;
+    height: 14px;
+    line-height: 14px;
+    padding: 7px 15px;
+}
+
+a.ask-a-question {
+    margin: 10px 1px;
+}
+
+.addtocart_button_module, input.addtocart-button {
+    height: 26px !important;
+}
+
+input.inputbox, textarea, .textarea, select.inputbox, input.validate-email, select.inputbox, .quantity-input, table.user-details input, #com-form-login-username input, #company_field, #title, #first_name_field, #middle_name_field, #last_name_field, #address_1_field, #address_2_field, #zip_field, #city_field, #virtuemart_country_id, #phone_1_field, #phone_2_field, #fax_field, #agreed_field, .contentpane #name, .contentpane #email, .contentpane #counter, #jform_name, #jform_username, #jform_password1, #jform_password2, #jform_email, #jform_contact_name, #jform_contact_emailmsg {
+    background: url("../images/input-bg.gif") repeat-x scroll 0 0 #FFFFFF;
+    border: 1px solid #DCDCDC;
+    border-radius: 5px 5px 5px 5px;
+    color: #505050;
+    font: 12px Arial,Helvetica,sans-serif;
+    padding: 4px;
+    vertical-align: middle;
+}
+
+textarea, .textarea {
+    width: 98% !important;
+}
+
+img.shadow {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.298);
+    margin-left: 3px;
+}

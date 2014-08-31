@@ -1,0 +1,36 @@
+.manager {
+	background-color: #CD1B1B;
+	color: white;
+	margin: 0;
+	overflow: hidden;
+	padding: 0 20px;
+}
+
+.manager h3 {
+	color: white;
+	float: left;
+	font-size: 24px;
+	margin: 0;
+}
+
+.menu_manager {
+	float: right;
+}
+	
+.menu_manager li {
+	display: block;
+	float: left;
+	font-family: 'Oswald', sans-serif;
+	font-size: 12px;
+	margin: 0;
+	position: relative;
+}
+
+.menu_manager li a {
+	display: block;
+	outline: 0;
+	padding: 0 20px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}

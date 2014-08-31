@@ -1,0 +1,30 @@
+#top_menu {
+	padding-top: 5px;
+}
+
+.menu_main {
+	background: url("../images/category-bg.png") no-repeat scroll left top transparent;
+	border-radius: 2px;
+	box-shadow: 0px 8px 10px -3px #242424;
+	top: 120px;
+	z-index: 99;
+}
+
+.menu_main li {
+	display: block;
+	float: left;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	position: relative;
+}
+
+.menu_main li a {
+	color: #F4EDE5;
+	display: block;
+	outline: 0;
+	padding: 0 20px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}

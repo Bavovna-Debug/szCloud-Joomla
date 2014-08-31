@@ -1,0 +1,46 @@
+.vokoun_button/*,
+.vm-button-correct*/ {
+	background: #FAFA96 url("../images/button/yellow.png") repeat-x;
+	border-radius: 4px;
+	box-shadow: 0 8px 10px -3px #DADA7F;
+	color: white;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 1.3em;
+	margin: 15px;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.vokoun_button:hover/*,
+.vm-button-correct:hover*/ {
+	box-shadow: 0 8px 10px 1px #DADA7F;
+	text-decoration: none;
+}
+
+.grey_button {
+	background: #3A3A3A url("../images/button/grey.png") repeat-x;
+	box-shadow: 0 8px 10px -3px #3A3A3A;
+}
+
+.grey_button:hover {
+	box-shadow: 0 8px 10px 1px #3A3A3A;
+}
+
+.red_button {
+	background: #CD1B1B url("../images/button/red.png") repeat-x;
+	box-shadow: 0 8px 10px -3px #CD1B1B;
+}
+
+.red_button:hover {
+	box-shadow: 0 8px 10px 1px #CD1B1B;
+}
+
+.green_button {
+	background: #18A018 url("../images/button/green.png") repeat-x;
+	box-shadow: 0 8px 10px -3px #18A018;
+}
+
+.green_button:hover {
+	box-shadow: 0 8px 10px 1px #18A018;
+}

@@ -1,0 +1,116 @@
+.category_description { padding:20px;}
+
+h1.browse-view {
+	margin: 0;
+	padding: 0 0 7px 0 !important;
+}
+
+.orderby-displaynumber {
+	background: #FBFBFB;
+	border-bottom: none;
+	border-top: 1px solid #DBC1B6;
+	margin: 0;
+	padding: 10px;
+	padding-top: 5px;
+	position: relative;
+}
+
+.orderlistcontainer {
+	color: #818181;
+	float: left;
+	font-size: 12px;
+	line-height: 18px;
+	margin: 0;
+	margin-right: 20px;
+	position: relative;
+}
+
+.orderby-displaynumber .title {
+	color: #818181;
+	font-size: 12px;
+	line-height: 18px;
+	padding-right: 10px;
+	padding-top: 2px;
+}
+
+.orderlistcontainer .Manufactur { display: none; }
+
+.orderlistcontainer div.activeOrder {
+	background: url("../images/virtuemart/arrow_down.png") right 1px no-repeat white;
+	border-radius: 0;
+	border: solid 1px #DBC1B6;
+	color: #BEBEBA;
+	cursor: pointer;
+	float: left;
+	font-size: 12px;
+	height: 19px;
+	min-width: 132px;
+	padding: 2px 25px 1px 10px;
+}
+
+/*.orderlistcontainer:first-child div.activeOrder { min-width: 81px; }*/
+
+.orderlistcontainer a {
+	color:#bebeba;
+	display: block;
+	text-decoration: none;
+}
+
+.orderlistcontainer a:hover {
+	display: block;
+	text-decoration: none;
+}
+
+.orderlistcontainer div.orderlist {
+	background: white;
+	border: solid 1px #DBC1B6;
+	cursor: pointer;
+	display: none;
+	left: 0;
+	min-width: 145px;
+	position: absolute;
+	top: 23px;
+}
+
+.orderlistcontainer:first-child div.orderlist {
+	left: 0;
+	min-width: 116px;
+}
+
+.orderlistcontainer div.orderlist div {
+	padding: 0;
+	margin: 0;
+}
+
+.orderlistcontainer div.orderlist div a {
+	color: #333;
+	padding: 2px 12px 2px 10px !important;
+	display: block;
+}
+
+.orderlistcontainer div.orderlist div a:hover { background: #f4f4f4; }
+
+.Results {
+	color: #818181;
+	float: left;
+	font-size: 12px;
+	line-height: 18px;
+	margin: 0;
+	width: 210px;
+}
+
+.Results select.inputbox {
+	color: #BEBEBA;
+	float: none;
+	height: auto;
+	margin: 0 5px 0 0;
+	padding: 3px 2px 2px 5px;
+	width: auto;
+}
+
+.Results span {
+	display: block;
+	float: right;
+	padding-bottom: 0;
+	padding-top: 2px;
+}

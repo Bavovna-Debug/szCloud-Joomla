@@ -1,0 +1,203 @@
+#top_bar {
+	background-color: #BEBEBE;
+	background-image: -webkit-linear-gradient(top, #BEBEBE, #888888);
+	background-image:    -moz-linear-gradient(top, #BEBEBE, #888888);
+	background-image:     -ms-linear-gradient(top, #BEBEBE, #888888);
+	background-image:      -o-linear-gradient(top, #BEBEBE, #888888);
+	background-image:         linear-gradient(to bottom, #BEBEBE, #888888);
+	height: 24px;
+	margin: 0;
+	overflow: hidden;
+	padding: 4px 0;
+	width: 100%;
+}
+
+#top_bar #login,
+#top_bar #cart,
+#top_bar #currencies,
+#top_bar #languages,
+#top_bar #search {
+	height: 22px;
+	overflow: hidden;
+	padding: 0 15px;
+}
+
+#top_bar #cart {
+	border-right: 1px solid #606060;
+}
+
+#top_bar #cart .cart_logo {
+	background: url("../images/cart.png") no-repeat transparent;
+	float: left;
+	height: 16px;
+	margin: 2px 0;
+	width: 16px;
+}
+
+#top_bar #cart .total_products,
+#top_bar #cart .bill_total {
+	color: white;
+	float: left;
+	font-family: Oswald, sans-serif;
+	font-size: 0.8em;
+	line-height: 1.6em;
+	margin-left: 15px;
+	text-shadow: 0 0 4px #0A0A0A;
+}
+
+#top_bar #cart .cart_show {
+	float: left;
+	font-family: Oswald, sans-serif;
+	font-size: 0.8em;
+	height: 22px;
+	margin-left: 15px;
+}
+
+#top_bar #cart .cart_show a {
+	text-shadow: 0 0 10px white;
+}
+
+#top_bar #currencies {
+	border-left: 1px solid #D0D0D0;
+	border-right: 1px solid #606060;
+}
+
+#top_bar #languages {
+	border-left: 1px solid #D0D0D0;
+	border-right: 1px solid #606060;
+}
+
+#top_bar #search {
+	border-left: 1px solid #D0D0D0;
+}
+
+#top_bar #login {
+	float: left;
+	width: auto;
+}
+
+#top_bar #login label{
+	color: white;
+	float: left;
+	font-family: Oswald, sans-serif;
+	font-size: 0.8em;
+	line-height: 1.6em;
+	text-shadow: 0 0 4px #0A0A0A;
+}
+
+#top_bar #login input[type="username"],
+#top_bar #login input[type="password"],
+#top_bar #search input[type="text"] {
+	background-color: #EAEAEA;
+	border: 1px solid #7F7F7F;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	float: left;
+	font-family: "Quattrocento Sans", sans-serif;
+	font-size: 0.8em;
+	height: 20px;
+	margin-left: 10px;
+	margin-right: 15px;
+	padding: 0 5px;
+}
+
+#top_bar #login input[type="username"],
+#top_bar #login input[type="password"] {
+	width: 60px;
+}
+
+#top_bar #search input[type="text"] {
+	width: 100px;
+}
+
+#top_bar #login input[type="username"]:focus,
+#top_bar #login input[type="password"]:focus,
+#top_bar #search input[type="text"]:focus {
+	background-color: white;
+}
+
+#top_bar #login input[type="submit"],
+#top_bar #search input[type="submit"] {
+	border: 1px solid #7F7F7F;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	float: left;
+	font-family: Oswald, sans-serif;
+	font-size: 0.8em;
+	font-weight: normal;
+	height: 22px;
+	margin: 0 5px;
+	padding: 0 8px;
+}
+
+#top_bar #login .register {
+	float: left;
+	font-family: Oswald, sans-serif;
+	font-size: 0.8em;
+	height: 22px;
+	margin: 0 5px;
+}
+
+#top_bar #login .register a {
+	text-shadow: 0 0 10px white;
+}
+
+#top_bar #login .hello {
+	color: #F0F0F0;
+	float: left;
+	font-family: Oswald, sans-serif;
+	font-size: 0.8em;
+	text-shadow: 0 0 4px #0A0A0A;
+}
+
+#top_bar #search {
+	float: right;
+}
+
+#top_bar #cart {
+	float: right;
+}
+
+#top_bar #currencies {
+	float: right;
+}
+
+#top_bar #currencies button {
+	background: none;
+	border: none;
+	color: #EEEEEE;
+	cursor: pointer;
+	font-family: "Quattrocento Sans", sans-serif;
+	font-size: 16px;
+	margin: 0 2px;
+	text-shadow: 0 0 4px #0A0A0A;
+}
+
+#top_bar #currencies button:hover {
+	color: #ECA456;
+}
+
+#top_bar #languages {
+	float: right;
+}
+
+#top_bar #languages ul {
+	list-style: none;
+	margin: 0;
+}
+
+#top_bar #languages ul li {
+	background: none;
+	border: none;
+	display: inline;
+	margin: 0 5px;
+}
+
+#top_bar #languages ul li:hover {
+	border: none;
+	box-shadow: 0 0 4px #2F2F2F;
+	-moz-box-shadow: 0 0 4px #2F2F2F;
+	-webkit-box-shadow: 0 0 4px #2F2F2F;
+}

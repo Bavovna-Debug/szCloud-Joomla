@@ -1,0 +1,155 @@
+.alert, .info, .notice, #system-message dd.error, #system-message dd.notice, #system-message dd.message, .box-save, .box-accept {
+    border-radius: 9px 9px 0 9px;
+    height: 100%;
+    margin: 0 0 15px;
+    padding: 10px;
+}
+.alert, #system-message dd.error.message.fade {
+    background: none repeat scroll 0 0 #FFE6E6;
+    border: 1px solid #EBC4C4;
+    color: #833939;
+}
+.alert .icon, .info .icon, .notice .icon, .box-save .icon, .box-accept .icon {
+    float: left;
+    height: 16px;
+    margin-right: 10px;
+    width: 16px;
+}
+.alert .icon, #system-message dd.error.message.fade ul {
+    background: url("../images/typography/exclamation.png") no-repeat scroll 0 0 transparent;
+}
+.info, #system-message dd.message {
+    background: none repeat scroll 0 0 #E6F5FF;
+    border: 1px solid #C2DAEA;
+    color: #3D6B8A;
+}
+.info .icon, #system-message dd.message ul {
+    background: url("../images/typography/information.png") no-repeat scroll 0 0 transparent;
+}
+.notice, #system-message dd.notice.message.fade {
+    background: none repeat scroll 0 0 #FFFCE6;
+    border: 1px solid #EAE5C2;
+    color: #696025;
+}
+.notice .icon, #system-message dd.notice.message.fade ul {
+    background: url("../images/typography/notice.png") no-repeat scroll 0 0 transparent;
+}
+.box-save {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border: 1px solid #E7E7E7;
+    color: #505050;
+}
+.box-save .icon {
+    background: url("../images/typography/drive_disk.png") no-repeat scroll 0 0 transparent;
+}
+.box-accept {
+    background: none repeat scroll 0 0 #F4FAE1;
+    border: 1px solid #D8E1BC;
+    color: #606E35;
+}
+.box-accept .icon {
+    background: url("../images/typography/accept.png") no-repeat scroll 0 0 transparent;
+}
+ul {
+    list-style: none outside none;
+}
+
+/*
+ul li {
+    background: url("../images/typography/ul-li-default.png") no-repeat scroll 0 5px transparent;
+    margin: 0 0 0 10px;
+    padding: 3px 0 3px 24px;
+}
+*/
+
+ul.latestnews li {
+    background: url("../images/typography/page_white_text.png") no-repeat scroll 0 4px transparent;
+}
+ul.mostread li {
+    background: url("../images/typography/page_white_star.png") no-repeat scroll 0 4px transparent;
+}
+ul.sections li {
+    background: url("../images/typography/folder.png") no-repeat scroll 0 3px transparent;
+}
+ul.list-accept li {
+    background: url("../images/typography/accept.png") no-repeat scroll 0 3px transparent;
+}
+ul.list-add li {
+    background: url("../images/typography/add.png") no-repeat scroll 0 3px transparent;
+}
+ul.list-delete li {
+    background: url("../images/typography/delete.png") no-repeat scroll 0 3px transparent;
+}
+ul.list-error li {
+    background: url("../images/typography/exclamation.png") no-repeat scroll 0 3px transparent;
+}
+ul.list-alert li {
+    background: url("../images/typography/notice.png") no-repeat scroll 0 3px transparent;
+}
+ul.list-cross li {
+    background: url("../images/typography/cross.png") no-repeat scroll 0 3px transparent;
+}
+ul.list-tick li {
+    background: url("../images/typography/tick.png") no-repeat scroll 0 3px transparent;
+}
+ul.list-tip li {
+    background: url("../images/typography/lightbulb.png") no-repeat scroll 0 3px transparent;
+}
+ul.list-disk li {
+    background: url("../images/typography/disk.png") no-repeat scroll 0 3px transparent;
+}
+ul.list-email li {
+    background: url("../images/typography/email.png") no-repeat scroll 0 3px transparent;
+}
+ul.list-feed li {
+    background: url("../images/typography/feed.png") no-repeat scroll 0 3px transparent;
+}
+ul.list-image li {
+    background: url("../images/typography/image.png") no-repeat scroll 0 3px transparent;
+}
+ul.list-information li {
+    background: url("../images/typography/information.png") no-repeat scroll 0 3px transparent;
+}
+ul.list-key li {
+    background: url("../images/typography/key.png") no-repeat scroll 0 3px transparent;
+}
+ul.list-newspaper li {
+    background: url("../images/typography/newspaper.png") no-repeat scroll 0 3px transparent;
+}
+ul.list-pencil li {
+    background: url("../images/typography/pencil.png") no-repeat scroll 0 3px transparent;
+}
+p.big-number {
+    clear: both;
+}
+p span.big-number {
+    float: left;
+    font: 30px 'Cuprum',arial,serif;
+    margin: 0 10px 0 0;
+}
+blockquote.cite {
+    background: url("../images/typography/blockquote-1.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    padding: 0;
+}
+blockquote.cite span.cite {
+    background: url("../images/typography/blockquote-2.png") no-repeat scroll 100% 100% transparent;
+    display: block;
+    padding: 10px 20px;
+}
+p {
+    margin-bottom: 1em;
+}
+blockquote {
+    border-left: 4px solid #CCCCCC;
+    font-family: Georgia,'Times New Roman',serif;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    padding-left: 1em;
+}
+blockquote cite {
+    font-size: 0.9em;
+}
+ul, ol {
+    padding-top: 0;
+}

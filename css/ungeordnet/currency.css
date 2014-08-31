@@ -1,0 +1,122 @@
+.currency {
+	background: none;	
+	height: 21px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	top: 12px;
+	width: auto;
+	z-index: 1000; 
+}	
+
+.currency .moduletable {
+	position: relative;
+}
+
+.currency span {
+	color: #76625C;
+	float: left;
+	font: normal 12px/1.2em Arial, Helvetica, sans-serif;
+	letter-spacing: 0;
+	margin: 0;
+	margin-right: 10px;
+	padding: 0;
+	padding-top: 4px;
+}
+	
+#select-form {
+	margin-left: 0;
+}
+
+.jqTransformSelectWrapper {
+	background: url(../images/select_left.png) left top no-repeat;
+	color: #BAB0AD;
+	float: left;
+	font: normal 11px/20px Arial, Helvetica, sans-serif;
+	height: 21px !important;
+	margin-top: 0;
+	padding: 0 0 0 7px;
+	position: relative;
+	text-transform: capitalize;
+	width: 99px !important;
+}
+
+.jqTransformSelectWrapper span {
+	display: block;
+	width: 99px !important;
+}
+
+.jqTransformSelectWrapper .jqTransformSelectOpen {
+	background: url(../images/select_right.png) left top no-repeat;
+	height: 21px !important;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 17px;
+}
+		
+.jqTransformSelectWrapper ul {
+	background: white;
+	border: 1px solid #DADAD9;
+	left: 1px;
+	list-style: none outside none !important;
+	padding-bottom: 2px;
+	position: absolute;
+	top: 21px;
+	width: 102px !important;
+	z-index: 100;
+}	
+
+.jqTransformSelectWrapper ul li {
+	display: block;
+	line-height: 16px;
+	padding-left: 4px;
+}
+
+.jqTransformSelectWrapper li a {
+	color: #BAB0AD;
+	display: block;
+	text-decoration: none;
+}
+
+.jqTransformSelectWrapper ul li:hover {
+	background: none;
+}
+
+.jqTransformSelectWrapper ul li:hover a {
+	color: black;
+}
+		
+#select-form .jqTransformHidden {
+	display: none !important;
+}
+	
+.currency .button {
+	background: url(../images/currency-button.gif) left top repeat-x;
+	border: none !important;
+	border-radius: 0;
+	color: white !important;
+	display: block;
+	float: right;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	height: 22px;
+	letter-spacing: 0;
+	line-height: 16px !important;
+	margin: 0;
+	margin-left: 10px;
+	padding: 0;
+	position: relative;
+	text-align: center;
+	text-transform: capitalize;
+	vertical-align: middle;
+	width: 61px;
+}
+
+.currency .button:hover {
+	background-position: left bottom;
+	color: white !important;
+	text-decoration: none;
+}

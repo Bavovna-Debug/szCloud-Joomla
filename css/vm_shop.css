@@ -1,0 +1,173 @@
+.shop {
+	overflow: hidden;
+	width: 100%;
+}
+
+.shop .categories {
+	overflow: hidden;
+	width: 100%;
+}
+
+.shop .categories .category {
+	background-color: white;
+	border: 1px solid #AFAFAF;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	padding: 20px;
+}
+
+.shop .categories .category h2 {
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.shop .categories .category .description {
+	float: left;
+	font-size: 0.9em;
+	overflow: hidden;
+	text-align: justify;
+	width: 100%;
+}
+
+.shop .categories .category .description .image {
+	float: left;
+}
+
+.shop .categories .category .products {
+	float: right;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.shop .categories .category .products .product {
+	background-color: #D2E4F8;
+	background-image: -webkit-linear-gradient(top, #D2E4F8, #ADC4F8);
+	background-image:    -moz-linear-gradient(top, #D2E4F8, #ADC4F8);
+	background-image:     -ms-linear-gradient(top, #D2E4F8, #ADC4F8);
+	background-image:      -o-linear-gradient(top, #D2E4F8, #ADC4F8);
+	background-image:         linear-gradient(to bottom, #D2E4F8, #ADC4F8);
+	line-height: 1.6em;
+	margin: 0 10px;
+	overflow: hidden;
+	padding: 5px 20px;
+}
+
+.shop .categories .category .products .special {
+	background-color: #48A848;
+	background-image: -webkit-linear-gradient(top, #1BDD1B, #48A848);
+	background-image:    -moz-linear-gradient(top, #1BDD1B, #48A848);
+	background-image:     -ms-linear-gradient(top, #1BDD1B, #48A848);
+	background-image:      -o-linear-gradient(top, #1BDD1B, #48A848);
+	background-image:         linear-gradient(to bottom, #1BDD1B, #48A848);
+	line-height: 1.6em;
+	margin: 0;
+	overflow: hidden;
+	padding: 10px 30px 10px 5px;
+}
+
+.shop .categories .category .products .product .name {
+	border-right: 1px solid #289828;
+	float: left;
+	font-size: 0.9em;
+	width: 140px;
+}
+
+.shop .categories .category .products .product .duration,
+.shop .categories .category .products .product .max_hosts,
+.shop .categories .category .products .product .ip {
+	border-right: 1px solid #289828;
+	float: left;
+	font-size: 0.8em;
+	margin-left: 10px;
+	width: 120px;
+}
+
+.shop .categories .category .products .special .name {
+	border-right: 1px solid #289828;
+	color: white;
+	float: left;
+	font-size: 1.2em;
+	margin: 0;
+	margin-left: 25px;
+	width: 140px;
+}
+
+.shop .categories .category .products .special .duration,
+.shop .categories .category .products .special .max_hosts,
+.shop .categories .category .products .special .ip {
+	border-right: 1px solid #289828;
+	color: white;
+	float: left;
+	font-size: 0.8em;
+	margin-left: 10px;
+	width: 120px;
+}
+
+.shop .categories .category .products .product .price,
+.shop .categories .category .products .special .price {
+	color: #A02020;
+	display: inline-block;
+	float: left;
+	font-family: Oswald, sans-serif;
+	font-style: italic;
+	margin: 0 10px;
+	text-align: right;
+	width: 100px;
+}
+
+.shop .categories .category .products .product .price {
+	line-height: 20px;
+}
+
+.shop .categories .category .products .special .price {
+	line-height: 20px;
+}
+
+.shop .categories .category .products .product .price span.currency {
+	font-size: 0.9em;
+	font-style: normal; 
+}
+
+.shop .categories .category .products .product .price span.euro {
+	font-size: 1.6em;
+}
+
+.shop .categories .category .products .product .price span.cent {
+	font-size: 1.0em;
+	vertical-align: bottom;
+}
+
+.shop .categories .category .products .special .price span.currency {
+	font-size: 0.9em;
+	font-style: normal; 
+}
+
+.shop .categories .category .products .special .price span.euro {
+	font-size: 1.6em;
+	margin: 0;
+}
+
+.shop .categories .category .products .special .price span.cent {
+	font-size: 1.0em;
+	margin: 0;
+	vertical-align: bottom;
+}
+
+.shop .categories .category .products .product .buy,
+.shop .categories .category .products .special .buy {
+	float: right;
+	font-size: 0.9em;
+	font-weight: bold;
+	margin: 0 10px;
+}
+
+.shop .categories .category .products .product .buy a {
+	text-shadow: 0 0 10px white;
+}
+
+.shop .categories .category .products .special .buy a {
+	color: white;
+}
